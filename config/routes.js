@@ -33,6 +33,7 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 'post /user': 'UserController.create',
+'get /user/:id': 'UserController.getById',
 'get /user': 'UserController.get'
 
 };
